@@ -5,7 +5,7 @@ int main(){
     {
         cin>>a[i];
     }
-    shellsort(a,9);
+    insertionsort(a,9);
     cout<<"Chuoi sau khi sap xep la:"<<endl;
     for(int i=0;i<9;i++)
     {
