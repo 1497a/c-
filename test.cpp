@@ -11,5 +11,6 @@ int main(){
     {
         cout<<a[i]<<" ";
     }
+    cout<<"DA UPDATE";
     return 0;
 }
