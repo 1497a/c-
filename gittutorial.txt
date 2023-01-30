@@ -1,0 +1,6 @@
+git remote -v : xem đường link push và pull code
+git remote set-url origin urlname : thay đổi đường link push và pull code
+quá trình push code lên git
+git add . push toàn bộ file lên code
+git commit -m "noi dung ghi chu"
+git push: dòng push code

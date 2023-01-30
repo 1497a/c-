@@ -1,2 +1,2 @@
 
-        swap(a[k],a[k+1]);
+    khoiTao(q);

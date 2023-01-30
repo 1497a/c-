@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+typedef struct  Node* Nodeptr;
+typedef  int TYPEINFO;
+
+struct Node
+{
+    int data;
+    int link;
+};
+struct Queue
+{
+    Nodeptr front, rear;
+};
+void khoiTao(Queue &q);
+int isEmpty(Queue q);
+Nodeptr tao_Node(TYPEINFO x);
+void enQueue(Queue &q, TYPEINFO x);
+void setValue(Queue& q);
+void print(Queue q);
+TYPEINFO deQueue(Queue& q);
+void first_Element(Queue q);
